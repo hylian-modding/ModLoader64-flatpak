@@ -4,7 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <name>ModLoader64</name>
-  <summary>ModLoader64 is a network capable mod loading system for Nintendo 64 games</summary>
+  <summary>Network capable mod loader for N64</summary>
   <description>
     <p>
       ModLoader64 is an advanced modding platform and online multiplayer framework built
@@ -30,10 +30,21 @@
   <provides>
     <binary>com.hylianmodding.modloader64</binary>
   </provides>
+  <categories>
+    <category>Games/Emulators</category>
+  </categories>
+  <branding>
+  <color type="primary" scheme_preference="light">#ffffff</color>
+  <color type="primary" scheme_preference="dark">#3d3846</color>
+  </branding>
   <screenshots>
     <screenshot type="default">
       <caption>ModLoader64-GUI</caption>
-      <image>https://raw.githubusercontent.com/hylian-modding/ModLoader64-GUI/master/resources/ml64.png</image>
+      <image>https://raw.githubusercontent.com/hylian-modding/ModLoader64-flatpak/master/screenshots/window.png</image>
+    </screenshot>
+    <screenshot type="default">
+      <caption>ModLoader64 Linux</caption>
+      <image>https://raw.githubusercontent.com/hylian-modding/ModLoader64-flatpak/master/screenshots/linux.png</image>
     </screenshot>
   </screenshots>
   <releases>
